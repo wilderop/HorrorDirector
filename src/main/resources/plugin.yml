@@ -1,0 +1,15 @@
+name: HorrorDirector
+version: ${project.version}
+main: com.azpbmd.horror.HorrorDirectorPlugin
+api-version: '26.2'
+authors: [azpbmd]
+description: Haunts this world and exposes a localhost director API.
+commands:
+  horror:
+    description: Trigger a scare or list scare types
+    usage: /horror <type|types|ambient> [player] [k=v...]
+    permission: horror.director
+permissions:
+  horror.director:
+    description: Run director scares
+    default: op

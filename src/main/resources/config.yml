@@ -1,0 +1,22 @@
+http:
+  bind: 127.0.0.1
+  port: 30088
+  token: ""
+
+world:
+  border-diameter: 60000
+  eternal-night: true
+  thunder: true
+  reduced-debug: true
+  locator-bar: false
+  pale-garden-search-radius: 8000
+
+ambient:
+  enabled: true
+  min-interval-ticks: 70
+  max-interval-ticks: 240
+  escalate-after-seconds: 90
+
+join:
+  give-book: true
+  delayed-scare-ticks: 60
